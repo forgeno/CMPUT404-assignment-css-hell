@@ -21,18 +21,20 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-*** Changes made:
-    - Paragraphs:
-        - Changed font to "Monospace"
-    - Body:
-        - Changed backgroun to brown paper texture
-    - Headers 1,2,3,4:
+Welcome to the CMPUT404-assignment-css-hell wiki!
+# Changes made:
+    * Paragraphs:
+        * Changed font to "Monospace"
+    * Body:
+        * Changed backgroun to brown paper texture
+    * Headers 1,2,3,4:
         - Changed font to "impact"
-    - Images:
-        - Added solid white border along all images
-        - Border size set to 5 pixels
-        - Set image max width to be 75% of original size.
-    - Image captions:
-        - Set color to red
-        - set Font to 'Franklin Gothic Medium'
+    * Images:
+        * Added solid white border along all images
+        * Border size set to 5 pixels
+        * Set image max width to be 75% of original size.
+    * Image captions:
+        * Set color to red
+        * set Font to 'Franklin Gothic Medium'
+
 
