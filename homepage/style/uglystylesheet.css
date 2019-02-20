@@ -1,0 +1,80 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    color: black;
+    padding: 1%;
+}
+
+h1, h2, h3{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+    margin: 0px;
+}
+
+ul{
+    color: black;
+    padding: 3%;
+}
+#mainComponent{
+    margin: auto;   
+    background-color: gray;
+    border-style: solid;
+    border-width: 2px;
+    float: left;
+}
+
+.topNavBarElement a {
+    text-align: center;
+    color: white;
+    padding: 8px 16px;
+  }
+  
+  /* Change the link color on hover */
+
+#sideBar {
+    list-style-type: none;
+    width: 20%;
+    background-color: gray;
+    border: 1px solid #555;
+    padding: 1%;
+} 
+
+
+
+#headshot{
+    max-width: 10%;
+    padding: 5px;
+    width: 40%;
+}
+
+#nameTitle{
+    color:black;
+}
+
+#schoolTitle{
+    color:black;
+}
+
+
+#contact{
+    color: black;
+    font-size: 15px;    
+}
+
+.contactIcons{
+    max-width: 1%;
+}
+
+.companyLogo{
+    max-width: 10%;
+    padding-left: 5%;
+}
+
+.techBadge{
+    max-width: 10%;
+    margin-left: 2%;
+    max-height: 10vh;
+}
