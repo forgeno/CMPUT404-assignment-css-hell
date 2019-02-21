@@ -1,48 +1,48 @@
 body{
-    background-image: url(../assets/wallpaper.jpg);
+    background-image: url(../assets/banner1.jpg);
     background-repeat: no-repeat;
     background-position: right top;
-    background-attachment: fixed;
     background-size: 100%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 p{
-    color: white;
-    padding: 1%;
+    color: black;
 }
 
 h1, h2, h3{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
     padding: 2%;
     margin: 0px;
 }
 
 ul{
-    color: white;
+    color: black;
     padding: 3%;
 }
 #mainComponent{
-    margin: auto;
-    max-width: 75%;
-    background-color: black;
-    opacity: 0.8;
-    float: left;
+    float: left;    
+    max-width: 70%;
+    background-color: white;
 }
+
+/* NavBar CSS from W3 School at:
+https://www.w3schools.com/css/css_navbar.asp
+Full credit to authors at w3 school
+ */
 #topNavBar {
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    padding-left: 30%;
     overflow: hidden;
-    background-color: black;
+    background-color: gray;
     position: absolute;
-    margin-top: 0%;
-    min-width: 74%;
-    border-style: solid;
-    border-width: 2px;
-
+    margin-top: 26%;
+    min-width: 100%;
   }
+
 
 .topNavBarElement {
     float: left;
@@ -52,16 +52,29 @@ ul{
     text-align: center;
     display: block;
     color: white;
-        padding: 8px 16px;
+    padding: 8px 16px;
     text-decoration: none;
   }
   
+#phoneNumElement{
+    margin-left: 5%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block;
+    color: gold;
+    padding: 8px 16px;
+}
   /* Change the link color on hover */
 .topNavBarElement a:hover {
-    background-color: deepskyblue;
-    color: white;
+    color: deepskyblue;
   }
 
+#blueline{
+    border-style: solid;
+    border-color: deepskyblue;
+    border-width: 8px;
+    margin-top: 28%;
+    box-shadow: 0px 5px 5px grey;
+}
 .topNavBarElement a:active {
     background-color: deepskyblue;
 }
@@ -69,40 +82,53 @@ ul{
 #sideBar {
     float: right;
     list-style-type: none;
-    width: 20%;
-    background-color: black;
-    opacity: 0.8;
-    border: 1px solid #555;
+    width: 24%;
+    background-color: whitesmoke;
     padding: 1%;
 } 
 
+#textSection{
+    float:left;
+    max-width: 75%;
+}
 
-
-#headshot{
-    max-width: 10%;
+#headerImage{
+    float: right;
+    max-width: 15%;
     padding: 5px;
+    padding-right: 20%;
+    padding-top: 5%;
     border-radius: 10px;
-    border-style: solid;
-    border-color: white;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+
 }
 
 #nameTitle{
-    color:white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    padding-top: 5%;
+    padding-left: 30%;
+    font-size: 100px; 
+    color: gold;
+    text-shadow: 0px 0px 10px white;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
 
 #schoolTitle{
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-left: 15%;
+    font-size: 45px; 
+    color: gold;
+    text-shadow: 0px 0px 10px white; 
+    font-family: 'Times New Roman', Times, serif;
     text-align: center; 
 }
 
 #topHeader{
+    top: 10%;
+    left: 15%;
     text-shadow: 0px 0px 10px black;
 }
 
@@ -125,4 +151,56 @@ ul{
     box-shadow: 0px 0px 10px white;
     margin-left: 2%;
     max-height: 10vh;
+}
+
+#topBanner{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    max-width: 100%;
+}
+
+#aboutText{
+    float: left;
+    max-width: 70%;
+}
+
+#headshot{
+    float: right;
+    max-width: 20%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#experienceText{
+    float: right;
+    max-width: 70%;
+}
+
+#experiencePhoto{
+    float: left;
+    max-width: 20%;
+    margin-left: 5%;
+    margin-top: 5%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#sideProjectText{
+    float: left;
+    max-width: 70%;
+}
+
+#offerSection{
+    float: left;    
+}
+
+#sidebarImg{
+    max-width: 30%;
+    margin-left: 30%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+#bottomTrim{
+    min-width: 100%;
+    padding-bottom: 0px;
+    box-shadow: 0px -5px 5px grey;
 }
